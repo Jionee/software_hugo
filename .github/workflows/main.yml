@@ -27,7 +27,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.HUGO_TOKEN }}
           publish_dir: ./public
           
 # # action 이름. 원하는대로 정하면 된다. 
