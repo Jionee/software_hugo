@@ -11,28 +11,30 @@
 
 <body>
     <div class="jumbotron">
-        <h1>Static Analysis Report</h1>
-        <p>정적 분석 결과 리포트</p>
+        <h1>Distributed Vending Machine Project</h1>
+        <p>Static Analysis Report</p>
     </div>
 
     <!-- Nav tabs -->
     <ul class="nav nav-tabs">
         <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#menu0">Home</a>
+            <a class="nav-link active" data-toggle="tab" href="#menu0">JUnit</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+            <a class="nav-link" data-toggle="tab" href="#menu1">SpotBugs</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+            <a class="nav-link" data-toggle="tab" href="#menu2">Jacoco</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu3">PMD</a>
         </li>
     </ul>
   
   <!-- Tab panes -->
     <div class="tab-content">
-        <div class="tab-pane container active" id="menu0">
-            <div  class="container p-3 my-3 border" id="pmd"></div>
-            <div  class="container p-3 my-3 border" id="pmdTest"></div>
+        <div class="tab-pane container fade" id="menu0">
+            <div class="container p-3 my-3 bg-primary text-white" id="jacocoTest"></div>
         </div>
         <div class="tab-pane container fade" id="menu1">
             <div class="container p-3 my-3 bg-dark text-white" id="spotbugs"></div>
@@ -40,7 +42,11 @@
         </div>
         <div class="tab-pane container fade" id="menu2">
             <div class="container p-3 my-3 bg-primary text-white" id="jacoco"></div>
-            <div class="container p-3 my-3 bg-primary text-white" id="jacocoTest"></div>
+        </div>
+        
+        <div class="tab-pane container active" id="menu3">
+            <div  class="container p-3 my-3 border" id="pmd"></div>
+            <div  class="container p-3 my-3 border" id="pmdTest"></div>
         </div>
     </div>
   
