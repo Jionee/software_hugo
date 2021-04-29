@@ -3,28 +3,17 @@
 <span class="nc" id="L3">public class VMProject {</span>
 
     public static void main(String[] args) {
-        //bug issue testing
-        //only annotation
-        //Google Checks
-        //
-        ////
-        if (1 &gt; 0) {
-<span class="nc" id="L12">            System.out.println(&quot;bigger&quot;);</span>
-        } else {
-            System.out.println(&quot;smaller&quot;);
+<span class="nc" id="L6">        int n1=0,n2=1,n3,i,count=10;</span>
+<span class="nc" id="L7">        System.out.print(n1+&quot; &quot;+n2);//printing 0 and 1</span>
+
+<span class="nc bnc" id="L9" title="All 2 branches missed.">        for(i=2;i&lt;count;++i)//loop starts from 2 because 0 and 1 are already printed</span>
+        {
+<span class="nc" id="L11">            n3=n1+n2;</span>
+<span class="nc" id="L12">            System.out.print(&quot; &quot;+n3);</span>
+<span class="nc" id="L13">            n1=n2;</span>
+<span class="nc" id="L14">            n2=n3;</span>
         }
-
-        int[] arr;
-<span class="nc" id="L18">        double a = 3;</span>
-
-
-<span class="nc bnc" id="L21" title="All 2 branches missed.">        if (a &gt; 2) {</span>
-<span class="nc" id="L22">            System.out.println(&quot;a equal 3!&quot;);</span>
-            //something
-            //dk djEJgrp cnrkgodiehlsmswl 1eh ahfmrpT
-
-        }
-<span class="nc" id="L27">    }</span>
+<span class="nc" id="L16">    }</span>
 
 
 }
