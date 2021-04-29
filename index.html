@@ -16,12 +16,15 @@
     </div>
 
     <div  class="container p-3 my-3 border" id="pmd"></div>
+    <div  class="container p-3 my-3 border" id="pmdTest"></div>
 
-    <div class="container p-3 my-3 bg-dark text-white"></div>
+    <div class="container p-3 my-3 bg-dark text-white" id="spotbugs"></div>
+    <div class="container p-3 my-3 bg-dark text-white" id="spotbugsTest"></div>
 
-    <div class="container p-3 my-3 bg-primary text-white"></div>
+    <div class="container p-3 my-3 bg-primary text-white" id="jacoco"></div>
+    <div class="container p-3 my-3 bg-primary text-white" id="jacocoTest"></div>
 
-    <h2>Static Analysis</h2>
+    <!-- <h2>Static Analysis</h2>
     <ul>
         <a href="https://Jionee.github.io/software_hugo/pmd/main.html">PMD main</a>
         <a href="https://Jionee.github.io/software_hugo/pmd/test.html">PMD test</a>
@@ -29,7 +32,7 @@
         <a href="https://Jionee.github.io/software_hugo/spotbugs/test.html">SPOT BUGS test</a>
          <a href="https://Jionee.github.io/software_hugo/jacoco/index.html">Jacoco code coverage</a>
          <a href="https://Jionee.github.io/software_hugo/junit/index.html">JUNIT</a>
-    </ul>
+    </ul> -->
 
 
 
@@ -37,12 +40,13 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 <script type = "text/javascript">
-    /*var xhr = new XMLHttpRequest();
-    $(document).ready(function show(){
-        xhr.open("GET", "http://localhost:8080/pmd/main.html");
-        xhr.send();
-    });*/
+    
     $("#pmd").load("pmd/main.html");
+    $("#pmdTest").load("pmd/test.html");
+    $("#spotbugs").load("spotbugs/main.html");
+    $("#spotbugsTest").load("spotbugs/test.html");
+    $("#jacoco").load("jacoco/main.html");
+    $("#jacocoTest").load("jacoco/test.html");
     
 </script>
 <script src="js/bootstrap.js"></script>
