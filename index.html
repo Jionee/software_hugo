@@ -4,11 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Static Analysis</title>
 </head>
 
 <body>
+    <div class="jumbotron">
+        <h1>Static Analysis Report</h1>
+        <p>정적 분석 결과 리포트</p>
+    </div>
+
+    <div  class="container p-3 my-3 border" id="pmd"></div>
+
+    <div class="container p-3 my-3 bg-dark text-white"></div>
+
+    <div class="container p-3 my-3 bg-primary text-white"></div>
+
     <h2>Static Analysis</h2>
     <ul>
         <a href="https://Jionee.github.io/software_hugo/pmd/main.html">PMD main</a>
@@ -19,6 +31,19 @@
          <a href="https://Jionee.github.io/software_hugo/junit/index.html">JUNIT</a>
     </ul>
 
-</body>
 
+
+</body>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script type = "text/javascript">
+    /*var xhr = new XMLHttpRequest();
+    $(document).ready(function show(){
+        xhr.open("GET", "http://localhost:8080/pmd/main.html");
+        xhr.send();
+    });*/
+    $("#pmd").load("pmd/main.html");
+    
+</script>
+<script src="js/bootstrap.js"></script>
 </html>
