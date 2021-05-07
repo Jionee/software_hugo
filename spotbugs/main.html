@@ -73,6 +73,8 @@
       <p>SpotBugs version: 4.2.1</p>
       <p>Code analyzed:</p>
       <ul>
+         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/Code.class</li>
+         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/Admin.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/VMProject.class</li>
       </ul>
       <p>
@@ -80,8 +82,8 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>17 lines of code analyzed,
-	in 1 classes, 
+      <p>57 lines of code analyzed,
+	in 3 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
          <tr class="tableheader">
@@ -96,18 +98,18 @@
          </tr>
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
-            <td align="right"/>
-            <td align="right">0.00</td>
+            <td align="right">1</td>
+            <td align="right">17.54</td>
          </tr>
          <tr class="$totalClass">
             <td>
                <b>Total Warnings</b>
             </td>
             <td align="right">
-               <b>0</b>
+               <b>1</b>
             </td>
             <td align="right">
-               <b>0.00</b>
+               <b>17.54</b>
             </td>
          </tr>
       </table>
@@ -121,6 +123,9 @@
       <h2>Contents</h2>
       <ul>
          <li>
+            <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+         </li>
+         <li>
             <a href="#Details">Details</a>
          </li>
       </ul>
@@ -132,17 +137,52 @@
          </tr>
          <tr class="tablerow0">
             <td>
+               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+            </td>
+            <td align="right">1</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
                <b>Total</b>
             </td>
             <td align="right">
-               <b>0</b>
+               <b>1</b>
             </td>
          </tr>
       </table>
       <h1>Warnings</h1>
       <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_PERFORMANCE">Performance Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e8');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: Admin.contact</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e8" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class Admin<br/>Field Admin.contact<br/>At Admin.java:[line 10]</p>
+            </td>
+         </tr>
+      </table>
       <h1>
          <a name="Details">Details</a>
       </h1>
-   </body>
+      <h2>
+         <a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
+      </h2>
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    </body>
 </html>
