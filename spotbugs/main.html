@@ -85,10 +85,12 @@
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/CodeDialog.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/CodeDialog$2.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/PaymentDialog.class</li>
+         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/Mail.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/AdminFrame$4.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/AdminDialog.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/AdminFrame$1.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/DrinkDialog$1.class</li>
+         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/RecieveMail.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/CodeDialog$1.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/VMFrame.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/main/AdminFrame$3.class</li>
@@ -118,8 +120,8 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>1276 lines of code analyzed,
-	in 39 classes, 
+      <p>1347 lines of code analyzed,
+	in 41 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
          <tr class="tableheader">
@@ -129,13 +131,13 @@
          </tr>
          <tr class="tablerow0">
             <td>High Priority Warnings</td>
-            <td align="right">5</td>
-            <td align="right">3.92</td>
+            <td align="right">8</td>
+            <td align="right">5.94</td>
          </tr>
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
-            <td align="right">19</td>
-            <td align="right">14.89</td>
+            <td align="right">16</td>
+            <td align="right">11.88</td>
          </tr>
          <tr class="$totalClass">
             <td>
@@ -145,7 +147,7 @@
                <b>24</b>
             </td>
             <td align="right">
-               <b>18.81</b>
+               <b>17.82</b>
             </td>
          </tr>
       </table>
@@ -163,6 +165,9 @@
          </li>
          <li>
             <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_I18N">Internationalization Warnings</a>
          </li>
          <li>
             <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
@@ -193,27 +198,33 @@
             <td>
                <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
             </td>
-            <td align="right">7</td>
+            <td align="right">5</td>
          </tr>
          <tr class="tablerow0">
             <td>
-               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+               <a href="#Warnings_I18N">Internationalization Warnings</a>
             </td>
             <td align="right">2</td>
          </tr>
          <tr class="tablerow1">
             <td>
-               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
             </td>
-            <td align="right">6</td>
+            <td align="right">2</td>
          </tr>
          <tr class="tablerow0">
             <td>
-               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
             </td>
-            <td align="right">5</td>
+            <td align="right">7</td>
          </tr>
          <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">4</td>
+         </tr>
+         <tr class="tablerow0">
             <td>
                <b>Total</b>
             </td>
@@ -232,7 +243,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e77');">
+         <tr class="tablerow1" onclick="toggleRow('d1e79');">
             <td>
                <span class="priority-2">ES</span>
             </td>
@@ -241,12 +252,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e77" style="display: none;">
+               <p id="d1e79" style="display: none;">
                   <a href="#ES_COMPARING_STRINGS_WITH_EQ">Bug type ES_COMPARING_STRINGS_WITH_EQ (click for details)</a>
                   <br/>In class AdminFrame$3<br/>In method AdminFrame$3.actionPerformed(ActionEvent)<br/>Actual type String<br/>String constant ""<br/>Return value of javax.swing.JTextField.getText() of type String<br/>At AdminFrame.java:[line 164]<br/>Another occurrence at AdminFrame.java:[line 167]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e101');">
+         <tr class="tablerow0" onclick="toggleRow('d1e103');">
             <td>
                <span class="priority-2">ES</span>
             </td>
@@ -255,12 +266,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e101" style="display: none;">
+               <p id="d1e103" style="display: none;">
                   <a href="#ES_COMPARING_STRINGS_WITH_EQ">Bug type ES_COMPARING_STRINGS_WITH_EQ (click for details)</a>
                   <br/>In class AdminFrame$4<br/>In method AdminFrame$4.actionPerformed(ActionEvent)<br/>Actual type String<br/>String constant ""<br/>Return value of javax.swing.JTextField.getText() of type String<br/>At AdminFrame.java:[line 218]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e178');">
+         <tr class="tablerow1" onclick="toggleRow('d1e195');">
             <td>
                <span class="priority-2">Nm</span>
             </td>
@@ -269,12 +280,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e178" style="display: none;">
+               <p id="d1e195" style="display: none;">
                   <a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
-                  <br/>In class Message<br/>In method Message.Send()<br/>At Message.java:[line 20]</p>
+                  <br/>In class Message<br/>In method Message.Send()<br/>At Message.java:[lines 62-64]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e272');">
+         <tr class="tablerow0" onclick="toggleRow('d1e308');">
             <td>
                <span class="priority-2">Nm</span>
             </td>
@@ -283,9 +294,9 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e272" style="display: none;">
+               <p id="d1e308" style="display: none;">
                   <a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
-                  <br/>In class VM<br/>In method VM.CheckStoke(String)<br/>At VM.java:[lines 98-104]</p>
+                  <br/>In class VM<br/>In method VM.CheckStoke(String)<br/>At VM.java:[lines 108-114]</p>
             </td>
          </tr>
       </table>
@@ -297,7 +308,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e255');">
+         <tr class="tablerow1" onclick="toggleRow('d1e291');">
             <td>
                <span class="priority-2">INT</span>
             </td>
@@ -306,12 +317,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e255" style="display: none;">
+               <p id="d1e291" style="display: none;">
                   <a href="#INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE">Bug type INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE (click for details)</a>
-                  <br/>In class VM<br/>In method VM.editDVMActivated(VM)<br/>Value 0<br/>Return value of java.util.Vector.size() of type int<br/>At VM.java:[line 107]</p>
+                  <br/>In class VM<br/>In method VM.editDVMActivated(VM)<br/>Value 0<br/>Return value of java.util.Vector.size() of type int<br/>At VM.java:[line 117]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e284');">
+         <tr class="tablerow0" onclick="toggleRow('d1e320');">
             <td>
                <span class="priority-1">NP</span>
             </td>
@@ -320,12 +331,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e284" style="display: none;">
+               <p id="d1e320" style="display: none;">
                   <a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getOtherVM(String)<br/>Value loaded from ids<br/>Dereferenced at VM.java:[line 54]</p>
+                  <br/>In class VM<br/>In method VM.getOtherVM(String)<br/>Value loaded from ids<br/>Dereferenced at VM.java:[line 64]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e298');">
+         <tr class="tablerow1" onclick="toggleRow('d1e334');">
             <td>
                <span class="priority-1">NP</span>
             </td>
@@ -334,54 +345,26 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e298" style="display: none;">
+               <p id="d1e334" style="display: none;">
                   <a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getOtherVM(String)<br/>Value loaded from ids<br/>Dereferenced at VM.java:[line 60]</p>
+                  <br/>In class VM<br/>In method VM.getOtherVM(String)<br/>Value loaded from ids<br/>Dereferenced at VM.java:[line 70]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e312');">
-            <td>
-               <span class="priority-2">NP</span>
-            </td>
-            <td>Read of unwritten field mailBox in VM.getOtherVM(String)</td>
-         </tr>
-         <tr class="detailrow0">
-            <td/>
-            <td>
-               <p id="d1e312" style="display: none;">
-                  <a href="#NP_UNWRITTEN_FIELD">Bug type NP_UNWRITTEN_FIELD (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getOtherVM(String)<br/>Field VM.mailBox<br/>At VM.java:[line 52]</p>
-            </td>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e328');">
+         <tr class="tablerow0" onclick="toggleRow('d1e348');">
             <td>
                <span class="priority-2">NP</span>
             </td>
             <td>Read of unwritten field vmLocArray in VM.getVMInfo(int)</td>
          </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e328" style="display: none;">
-                  <a href="#NP_UNWRITTEN_FIELD">Bug type NP_UNWRITTEN_FIELD (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getVMInfo(int)<br/>Field VM.vmLocArray<br/>At VM.java:[line 29]</p>
-            </td>
-         </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e384');">
-            <td>
-               <span class="priority-2">UwF</span>
-            </td>
-            <td>Unwritten field: VM.mailBox</td>
-         </tr>
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e384" style="display: none;">
-                  <a href="#UWF_UNWRITTEN_FIELD">Bug type UWF_UNWRITTEN_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.mailBox<br/>At VM.java:[line 52]</p>
+               <p id="d1e348" style="display: none;">
+                  <a href="#NP_UNWRITTEN_FIELD">Bug type NP_UNWRITTEN_FIELD (click for details)</a>
+                  <br/>In class VM<br/>In method VM.getVMInfo(int)<br/>Field VM.vmLocArray<br/>At VM.java:[line 30]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e397');">
+         <tr class="tablerow1" onclick="toggleRow('d1e404');">
             <td>
                <span class="priority-2">UwF</span>
             </td>
@@ -390,9 +373,46 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e397" style="display: none;">
+               <p id="d1e404" style="display: none;">
                   <a href="#UWF_UNWRITTEN_FIELD">Bug type UWF_UNWRITTEN_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.vmLocArray<br/>At VM.java:[line 29]</p>
+                  <br/>In class VM<br/>Field VM.vmLocArray<br/>At VM.java:[line 30]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_I18N">Internationalization Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e163');">
+            <td>
+               <span class="priority-1">Dm</span>
+            </td>
+            <td>Found reliance on default encoding in Mail.run(): new java.io.OutputStreamWriter(OutputStream)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e163" style="display: none;">
+                  <a href="#DM_DEFAULT_ENCODING">Bug type DM_DEFAULT_ENCODING (click for details)</a>
+                  <br/>In class Mail<br/>In method Mail.run()<br/>Called method new java.io.OutputStreamWriter(OutputStream)<br/>At Message.java:[line 28]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e225');">
+            <td>
+               <span class="priority-1">Dm</span>
+            </td>
+            <td>Found reliance on default encoding in RecieveMail.run(): new java.io.InputStreamReader(InputStream)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e225" style="display: none;">
+                  <a href="#DM_DEFAULT_ENCODING">Bug type DM_DEFAULT_ENCODING (click for details)</a>
+                  <br/>In class RecieveMail<br/>In method RecieveMail.run()<br/>Called method new java.io.InputStreamReader(InputStream)<br/>At TestMain.java:[line 43]</p>
             </td>
          </tr>
       </table>
@@ -404,7 +424,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e221');">
+         <tr class="tablerow1" onclick="toggleRow('d1e257');">
             <td>
                <span class="priority-2">EI</span>
             </td>
@@ -413,12 +433,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e221" style="display: none;">
+               <p id="d1e257" style="display: none;">
                   <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getDrinkArray()<br/>Field VM.drinkArray<br/>At VM.java:[line 157]</p>
+                  <br/>In class VM<br/>In method VM.getDrinkArray()<br/>Field VM.drinkArray<br/>At VM.java:[line 167]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e237');">
+         <tr class="tablerow0" onclick="toggleRow('d1e273');">
             <td>
                <span class="priority-2">EI2</span>
             </td>
@@ -427,7 +447,7 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e237" style="display: none;">
+               <p id="d1e273" style="display: none;">
                   <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
                   <br/>In class VM<br/>In method new VM(int, double[])<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 20]</p>
             </td>
@@ -441,86 +461,100 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e47');">
+         <tr class="tablerow1" onclick="toggleRow('d1e208');">
+            <td>
+               <span class="priority-1">Bx</span>
+            </td>
+            <td>Boxing/unboxing to parse a primitive RecieveMail.run()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e208" style="display: none;">
+                  <a href="#DM_BOXED_PRIMITIVE_FOR_PARSING">Bug type DM_BOXED_PRIMITIVE_FOR_PARSING (click for details)</a>
+                  <br/>In class RecieveMail<br/>In method RecieveMail.run()<br/>Called method Integer.intValue()<br/>Should call Integer.parseInt(String) instead<br/>At TestMain.java:[line 49]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e49');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread field: Admin.contact</td>
          </tr>
-         <tr class="detailrow1">
+         <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e47" style="display: none;">
+               <p id="d1e49" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
                   <br/>In class Admin<br/>Field Admin.contact<br/>At Admin.java:[line 10]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e135');">
+         <tr class="tablerow1" onclick="toggleRow('d1e137');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread field: Item.Price</td>
          </tr>
-         <tr class="detailrow0">
+         <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e135" style="display: none;">
+               <p id="d1e137" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
                   <br/>In class Item<br/>Field Item.Price<br/>At Item.java:[line 9]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e344');">
+         <tr class="tablerow0" onclick="toggleRow('d1e364');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread field: VM.Address</td>
          </tr>
-         <tr class="detailrow1">
+         <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e344" style="display: none;">
+               <p id="d1e364" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.Address<br/>At VM.java:[line 168]</p>
+                  <br/>In class VM<br/>Field VM.Address<br/>At VM.java:[line 178]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e357');">
+         <tr class="tablerow1" onclick="toggleRow('d1e378');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread field: VM.prepayList</td>
          </tr>
-         <tr class="detailrow0">
+         <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e357" style="display: none;">
+               <p id="d1e378" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
                   <br/>In class VM<br/>Field VM.prepayList<br/>At VM.java:[line 12]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e148');">
+         <tr class="tablerow0" onclick="toggleRow('d1e150');">
             <td>
                <span class="priority-2">UuF</span>
             </td>
             <td>Unused field: Item.index</td>
          </tr>
-         <tr class="detailrow1">
+         <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e148" style="display: none;">
+               <p id="d1e150" style="display: none;">
                   <a href="#UUF_UNUSED_FIELD">Bug type UUF_UNUSED_FIELD (click for details)</a>
                   <br/>In class Item<br/>Field Item.index<br/>In Item.java</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e371');">
+         <tr class="tablerow1" onclick="toggleRow('d1e391');">
             <td>
                <span class="priority-2">UuF</span>
             </td>
             <td>Unused field: VM.vmAddArray</td>
          </tr>
-         <tr class="detailrow0">
+         <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e371" style="display: none;">
+               <p id="d1e391" style="display: none;">
                   <a href="#UUF_UNUSED_FIELD">Bug type UUF_UNUSED_FIELD (click for details)</a>
                   <br/>In class VM<br/>Field VM.vmAddArray<br/>In VM.java</p>
             </td>
@@ -534,7 +568,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e60');">
+         <tr class="tablerow1" onclick="toggleRow('d1e62');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -543,12 +577,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e60" style="display: none;">
+               <p id="d1e62" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class AdminFrame$1<br/>In method AdminFrame$1.actionPerformed(ActionEvent)<br/>Local variable named drink<br/>At AdminFrame.java:[line 90]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e161');">
+         <tr class="tablerow0" onclick="toggleRow('d1e178');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -557,12 +591,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e161" style="display: none;">
+               <p id="d1e178" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class MainFrame<br/>In method MainFrame.checkAdmin()<br/>Local variable stored in JVM register 4<br/>At MainFrame.java:[line 135]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e204');">
+         <tr class="tablerow1" onclick="toggleRow('d1e240');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -571,12 +605,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e204" style="display: none;">
+               <p id="d1e240" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
-                  <br/>In class TestMain<br/>In method TestMain.main(String[])<br/>Local variable named main<br/>At TestMain.java:[line 7]</p>
+                  <br/>In class TestMain<br/>In method TestMain.main(String[])<br/>Local variable named main<br/>At TestMain.java:[line 15]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e123');">
+         <tr class="tablerow0" onclick="toggleRow('d1e125');">
             <td>
                <span class="priority-2">SF</span>
             </td>
@@ -585,23 +619,9 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e123" style="display: none;">
+               <p id="d1e125" style="display: none;">
                   <a href="#SF_SWITCH_NO_DEFAULT">Bug type SF_SWITCH_NO_DEFAULT (click for details)</a>
                   <br/>In class DrinkPanel<br/>In method DrinkPanel.initCenter()<br/>At DrinkPanel.java:[lines 53-55]</p>
-            </td>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e190');">
-            <td>
-               <span class="priority-2">UrF</span>
-            </td>
-            <td>Unread public/protected field: Message.dst_id</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e190" style="display: none;">
-                  <a href="#URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD">Bug type URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD (click for details)</a>
-                  <br/>In class Message<br/>Field Message.dst_id<br/>At Message.java:[line 13]</p>
             </td>
          </tr>
       </table>
@@ -609,6 +629,13 @@
          <a name="Details">Details</a>
       </h1>
       <h2>
+         <a name="DM_BOXED_PRIMITIVE_FOR_PARSING">DM_BOXED_PRIMITIVE_FOR_PARSING: Boxing/unboxing to parse a primitive</a>
+      </h2>
+
+  <p>A boxed primitive is created from a String, just to extract the unboxed primitive value.
+  It is more efficient to just call the static parseXXX method.</p>
+
+    <h2>
          <a name="DLS_DEAD_LOCAL_STORE">DLS_DEAD_LOCAL_STORE: Dead store to local variable</a>
       </h2>
 
@@ -625,6 +652,12 @@ there is no easy way to eliminate these false positives.
 </p>
 
     <h2>
+         <a name="DM_DEFAULT_ENCODING">DM_DEFAULT_ENCODING: Reliance on default encoding</a>
+      </h2>
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      <h2>
          <a name="EI_EXPOSE_REP">EI_EXPOSE_REP: May expose internal representation by returning reference to mutable object</a>
       </h2>
 
@@ -705,15 +738,6 @@ cases.
       </h2>
 
   <p> This field is never read.&nbsp; Consider removing it from the class.</p>
-
-    <h2>
-         <a name="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD">URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD: Unread public/protected field</a>
-      </h2>
-
-  <p> This field is never read.&nbsp;
-The field is public or protected, so perhaps
-    it is intended to be used with classes not seen as part of the analysis. If not,
-consider removing it from the class.</p>
 
     <h2>
          <a name="UUF_UNUSED_FIELD">UUF_UNUSED_FIELD: Unused field</a>
