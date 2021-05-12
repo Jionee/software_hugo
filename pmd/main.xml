@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-12T07:05:38.900">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-12T07:09:42.682">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Admin.java">
 <violation beginline="2" endline="2" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Admin" variable="adminID" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -250,7 +250,7 @@ Found 'DU'-anomaly for variable 'drinkArray' (lines '40'-'59').
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/DrinkPanel.java">
-<violation beginline="6" endline="102" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="DrinkPanel" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+<violation beginline="6" endline="103" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="DrinkPanel" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
 Classes implementing Serializable should set a serialVersionUID
 </violation>
 <violation beginline="9" endline="9" begincolumn="12" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DrinkPanel" variable="drinkname" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
@@ -290,7 +290,7 @@ Avoid using Literals in Conditional Statements
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/MainFrame.java">
-<violation beginline="10" endline="235" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="MainFrame" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+<violation beginline="10" endline="237" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="MainFrame" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
 Classes implementing Serializable should set a serialVersionUID
 </violation>
 <violation beginline="12" endline="12" begincolumn="23" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="MainFrame" variable="frame" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
@@ -324,16 +324,16 @@ Avoid empty if statements
 Found 'DU'-anomaly for variable 'admin' (lines '135'-'139').
 </violation>
 <violation beginline="137" endline="137" begincolumn="90" endcolumn="96" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="MainFrame" method="checkAdmin" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
-The String literal "Error" appears 12 times in this file; the first occurrence is on line 137
+The String literal "Error" appears 13 times in this file; the first occurrence is on line 137
 </violation>
-<violation beginline="146" endline="159" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="checkCode" variable="inputcode" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'inputcode' (lines '146'-'159').
+<violation beginline="145" endline="162" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="checkCode" variable="inputcode" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'inputcode' (lines '145'-'162').
 </violation>
-<violation beginline="169" endline="218" begincolumn="16" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="cardCheck" variable="cardNum" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'cardNum' (lines '169'-'218').
+<violation beginline="172" endline="220" begincolumn="16" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="cardCheck" variable="cardNum" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cardNum' (lines '172'-'220').
 </violation>
-<violation beginline="177" endline="218" begincolumn="13" endcolumn="43" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="cardCheck" variable="cvc" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'cvc' (lines '177'-'218').
+<violation beginline="180" endline="220" begincolumn="13" endcolumn="43" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainFrame" method="cardCheck" variable="cvc" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'cvc' (lines '180'-'220').
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Message.java">
