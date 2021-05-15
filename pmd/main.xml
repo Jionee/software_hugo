@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-15T07:53:39.228">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-15T07:54:59.954">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Admin.java">
 <violation beginline="2" endline="2" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Admin" variable="adminID" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -237,9 +237,6 @@ Assigning an Object to null is a code smell.  Consider refactoring.
 <violation beginline="7" endline="7" begincolumn="21" endcolumn="24" rule="NullAssignment" ruleset="Error Prone" class="Drink" method="Drink" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
 Assigning an Object to null is a code smell.  Consider refactoring.
 </violation>
-<violation beginline="20" endline="20" begincolumn="18" endcolumn="22" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Drink" method="requestEditPrice" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
-Avoid using Literals in Conditional Statements
-</violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/DrinkDialog.java">
 <violation beginline="6" endline="60" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="DrinkDialog" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
@@ -293,6 +290,15 @@ Found non-transient, non-static member. Please mark as transient or provide acce
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Item.java">
+<violation beginline="2" endline="2" begincolumn="20" endcolumn="23" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Item" variable="Name" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="3" endline="3" begincolumn="17" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Item" variable="Price" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="4" endline="4" begincolumn="17" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Item" variable="Stock" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
 <violation beginline="8" endline="8" begincolumn="21" endcolumn="24" rule="NullAssignment" ruleset="Error Prone" class="Item" method="Item" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
 Assigning an Object to null is a code smell.  Consider refactoring.
 </violation>
