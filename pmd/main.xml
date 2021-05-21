@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-21T04:23:41.852">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-21T04:30:43.099">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Admin.java">
 <violation beginline="2" endline="2" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Admin" variable="adminID" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -643,38 +643,50 @@ Found 'DU'-anomaly for variable 'name' (lines '392'-'406').
 <violation beginline="394" endline="394" begincolumn="29" endcolumn="29" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="VM" method="confirmPrepay" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
 Avoid using Literals in Conditional Statements
 </violation>
-<violation beginline="410" endline="415" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '410'-'415').
+<violation beginline="410" endline="417" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '410'-'417').
 </violation>
-<violation beginline="415" endline="415" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '415'-'415').
+<violation beginline="415" endline="417" begincolumn="21" endcolumn="17" rule="EmptyIfStmt" ruleset="Error Prone" class="VM" method="requestChangeName" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
 </violation>
-<violation beginline="424" endline="435" begincolumn="13" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'n' (lines '424'-'435').
+<violation beginline="417" endline="417" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '417'-'417').
 </violation>
-<violation beginline="425" endline="430" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '425'-'430').
+<violation beginline="426" endline="439" begincolumn="13" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'n' (lines '426'-'439').
 </violation>
-<violation beginline="430" endline="430" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '430'-'430').
+<violation beginline="427" endline="434" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '427'-'434').
 </violation>
-<violation beginline="438" endline="443" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '438'-'443').
+<violation beginline="432" endline="434" begincolumn="21" endcolumn="17" rule="EmptyIfStmt" ruleset="Error Prone" class="VM" method="receiveChangeName" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
 </violation>
-<violation beginline="443" endline="443" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '443'-'443').
+<violation beginline="434" endline="434" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangeName" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '434'-'434').
 </violation>
-<violation beginline="452" endline="464" begincolumn="13" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'n' (lines '452'-'464').
+<violation beginline="442" endline="449" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '442'-'449').
 </violation>
-<violation beginline="453" endline="464" begincolumn="13" endcolumn="44" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'price' (lines '453'-'464').
+<violation beginline="447" endline="449" begincolumn="21" endcolumn="17" rule="EmptyIfStmt" ruleset="Error Prone" class="VM" method="requestChangePrice" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
 </violation>
-<violation beginline="454" endline="459" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '454'-'459').
+<violation beginline="449" endline="449" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="requestChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '449'-'449').
 </violation>
-<violation beginline="459" endline="459" begincolumn="17" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'flag' (lines '459'-'459').
+<violation beginline="458" endline="472" begincolumn="13" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'n' (lines '458'-'472').
+</violation>
+<violation beginline="459" endline="472" begincolumn="13" endcolumn="44" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'price' (lines '459'-'472').
+</violation>
+<violation beginline="460" endline="467" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '460'-'467').
+</violation>
+<violation beginline="465" endline="467" begincolumn="21" endcolumn="17" rule="EmptyIfStmt" ruleset="Error Prone" class="VM" method="receiveChangePrice" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="467" endline="467" begincolumn="18" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="receiveChangePrice" variable="flag" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'flag' (lines '467'-'467').
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/VMFrame.java">
