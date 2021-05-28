@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-27T05:41:47.776">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-28T06:23:09.665">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/AdminTest.java">
 <violation beginline="6" endline="6" begincolumn="19" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="AdminTest" variable="ad" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -64,10 +64,19 @@ Found non-transient, non-static member. Please mark as transient or provide acce
 <violation beginline="10" endline="10" begincolumn="25" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="m2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="m3" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
 <violation beginline="11" endline="11" begincolumn="22" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="loc" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
-<violation beginline="12" endline="12" begincolumn="9" endcolumn="9" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="10" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="d1" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="14" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="d2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="17" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="d3" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
 <violation beginline="13" endline="13" begincolumn="12" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="t4" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
@@ -76,25 +85,55 @@ Found non-transient, non-static member. Please mark as transient or provide acce
 <violation beginline="14" endline="14" begincolumn="16" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="vm2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
+<violation beginline="14" endline="14" begincolumn="21" endcolumn="23" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="vm3" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
 <violation beginline="15" endline="15" begincolumn="12" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="t5" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
 <violation beginline="16" endline="16" begincolumn="12" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="t6" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
-<violation beginline="17" endline="17" begincolumn="9" endcolumn="9" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="k" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="16" endline="16" begincolumn="16" endcolumn="17" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="t7" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
-<violation beginline="34" endline="43" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" class="VMTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
+<violation beginline="16" endline="16" begincolumn="20" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="t8" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="10" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="k1" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="12" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="k2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="15" endcolumn="16" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="k3" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="14" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="da" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="19" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="da2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="22" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMTest" variable="da3" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="41" endline="50" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" class="VMTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
 A switch statement does not contain a break
 </violation>
-<violation beginline="63" endline="75" begincolumn="17" endcolumn="39" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VMTest" method="findTest" variable="da" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'da' (lines '63'-'75').
+<violation beginline="51" endline="60" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" class="VMTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
+A switch statement does not contain a break
 </violation>
-<violation beginline="101" endline="101" begincolumn="30" endcolumn="30" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+<violation beginline="61" endline="70" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" class="VMTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
+A switch statement does not contain a break
+</violation>
+<violation beginline="164" endline="164" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
 Avoid empty while statements
 </violation>
-<violation beginline="105" endline="105" begincolumn="21" endcolumn="21" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+<violation beginline="171" endline="171" begincolumn="36" endcolumn="36" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+Avoid empty while statements
+</violation>
+<violation beginline="179" endline="179" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
 Avoid empty while statements
 </violation>
 </file>
