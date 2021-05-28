@@ -73,13 +73,13 @@
       <p>SpotBugs version: 4.2.1</p>
       <p>Code analyzed:</p>
       <ul>
+         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/VMfunctionTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/VMTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/ItemTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/MessageTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/DrinkTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/AdminTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/CodeTest.class</li>
-         <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/VMProjectTest.class</li>
          <li>/home/runner/work/Software_VnV/Software_VnV/build/classes/java/test/CardTest.class</li>
       </ul>
       <p>
@@ -87,7 +87,7 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>251 lines of code analyzed,
+      <p>517 lines of code analyzed,
 	in 8 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
@@ -103,18 +103,18 @@
          </tr>
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
-            <td align="right">3</td>
-            <td align="right">11.95</td>
+            <td align="right">5</td>
+            <td align="right">9.67</td>
          </tr>
          <tr class="$totalClass">
             <td>
                <b>Total Warnings</b>
             </td>
             <td align="right">
-               <b>3</b>
+               <b>5</b>
             </td>
             <td align="right">
-               <b>11.95</b>
+               <b>9.67</b>
             </td>
          </tr>
       </table>
@@ -127,9 +127,6 @@
       </p>
       <h2>Contents</h2>
       <ul>
-         <li>
-            <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
-         </li>
          <li>
             <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
          </li>
@@ -145,50 +142,21 @@
          </tr>
          <tr class="tablerow0">
             <td>
-               <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
-            </td>
-            <td align="right">1</td>
-         </tr>
-         <tr class="tablerow1">
-            <td>
                <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
             </td>
-            <td align="right">2</td>
+            <td align="right">5</td>
          </tr>
-         <tr class="tablerow0">
+         <tr class="tablerow1">
             <td>
                <b>Total</b>
             </td>
             <td align="right">
-               <b>3</b>
+               <b>5</b>
             </td>
          </tr>
       </table>
       <h1>Warnings</h1>
       <p>Click on a warning row to see full context information.</p>
-      <h2>
-         <a name="Warnings_CORRECTNESS">Correctness Warnings</a>
-      </h2>
-      <table class="warningtable" width="100%" cellspacing="0">
-         <tr class="tableheader">
-            <th align="left">Code</th>
-            <th align="left">Warning</th>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e20');">
-            <td>
-               <span class="priority-2">EC</span>
-            </td>
-            <td>Using .equals to compare two double[]'s, (equivalent to ==) in VMTest.getsetTest()</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e20" style="display: none;">
-                  <a href="#EC_BAD_ARRAY_COMPARE">Bug type EC_BAD_ARRAY_COMPARE (click for details)</a>
-                  <br/>In class VMTest<br/>In method VMTest.getsetTest()<br/>Actual type double[]<br/>Expected double[]<br/>Value loaded from field VMTest.loc<br/>Return value of VM.getLocation() of type double[]<br/>Called method org.junit.jupiter.api.Assertions.assertEquals(Object, Object)<br/>At VMTest.java:[line 80]</p>
-            </td>
-         </tr>
-      </table>
       <h2>
          <a name="Warnings_PERFORMANCE">Performance Warnings</a>
       </h2>
@@ -197,32 +165,74 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e46');">
+         <tr class="tablerow1" onclick="toggleRow('d1e20');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: VMTest.a</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e20" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class VMTest<br/>Field VMTest.a<br/>At VMTest.java:[line 37]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e33');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread field: VMTest.m3</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e33" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class VMTest<br/>Field VMTest.m3<br/>At VMTest.java:[line 40]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e46');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: VMTest.msg</td>
          </tr>
          <tr class="detailrow1">
             <td/>
             <td>
                <p id="d1e46" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMTest<br/>Field VMTest.m3<br/>At VMTest.java:[line 40]</p>
+                  <br/>In class VMTest<br/>Field VMTest.msg<br/>At VMTest.java:[line 25]</p>
             </td>
          </tr>
          <tr class="tablerow0" onclick="toggleRow('d1e59');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
-            <td>Unread field: VMTest.msg</td>
+            <td>Unread field: VMfunctionTest.frame1</td>
          </tr>
          <tr class="detailrow0">
             <td/>
             <td>
                <p id="d1e59" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMTest<br/>Field VMTest.msg<br/>At VMTest.java:[line 25]</p>
+                  <br/>In class VMfunctionTest<br/>Field VMfunctionTest.frame1<br/>At VMfunctionTest.java:[line 23]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e72');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: VMfunctionTest.frame2</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e72" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class VMfunctionTest<br/>Field VMfunctionTest.frame2<br/>At VMfunctionTest.java:[line 19]</p>
             </td>
          </tr>
       </table>
@@ -230,18 +240,6 @@
          <a name="Details">Details</a>
       </h1>
       <h2>
-         <a name="EC_BAD_ARRAY_COMPARE">EC_BAD_ARRAY_COMPARE: Invocation of equals() on an array, which is equivalent to ==</a>
-      </h2>
-
-<p>
-This method invokes the .equals(Object o) method on an array. Since arrays do not override the equals
-method of Object, calling equals on an array is the same as comparing their addresses. To compare the
-contents of the arrays, use <code>java.util.Arrays.equals(Object[], Object[])</code>.
-To compare the addresses of the arrays, it would be
-less confusing to explicitly check pointer equality using <code>==</code>.
-</p>
-
-    <h2>
          <a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
       </h2>
 
