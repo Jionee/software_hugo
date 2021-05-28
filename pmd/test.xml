@@ -1,33 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-28T07:48:20.073">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-05-28T09:41:56.760">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/AdminTest.java">
 <violation beginline="6" endline="6" begincolumn="19" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="AdminTest" variable="ad" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="22" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="AdminTest" variable="admin" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="27" endcolumn="35" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="AdminTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "2721ckd" appears 4 times in this file; the first occurrence is on line 11
+</violation>
+<violation beginline="17" endline="17" begincolumn="46" endcolumn="52" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="AdminTest" method="AdminLogin" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "admin" appears 5 times in this file; the first occurrence is on line 17
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/CardTest.java">
 <violation beginline="9" endline="9" begincolumn="18" endcolumn="19" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CardTest" variable="cd" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
+<violation beginline="10" endline="10" begincolumn="18" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CardTest" variable="cd2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="40" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="CardTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "1234123412341234" appears 6 times in this file; the first occurrence is on line 14
+</violation>
+<violation beginline="15" endline="15" begincolumn="24" endcolumn="41" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="CardTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "1111111111111111" appears 5 times in this file; the first occurrence is on line 15
+</violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/CodeTest.java">
-<violation beginline="6" endline="6" begincolumn="10" endcolumn="10" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="6" endline="6" begincolumn="10" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="code" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
-<violation beginline="7" endline="7" begincolumn="12" endcolumn="12" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="6" endline="6" begincolumn="15" endcolumn="19" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="code2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
-<violation beginline="8" endline="8" begincolumn="9" endcolumn="10" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="co" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="7" endline="7" begincolumn="12" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="drinkname" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="7" endline="7" begincolumn="22" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="drinkname2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="15" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="codenum" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="CodeTest" variable="codenum2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/DrinkTest.java">
-<violation beginline="6" endline="6" begincolumn="11" endcolumn="11" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DrinkTest" variable="d" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="6" endline="6" begincolumn="11" endcolumn="15" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DrinkTest" variable="drink" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="22" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DrinkTest" variable="drink2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="DrinkTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "coke" appears 4 times in this file; the first occurrence is on line 9
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/ItemTest.java">
-<violation beginline="6" endline="6" begincolumn="10" endcolumn="10" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ItemTest" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+<violation beginline="6" endline="6" begincolumn="10" endcolumn="13" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ItemTest" variable="item" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ItemTest" variable="item2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
 </file>
@@ -127,14 +163,40 @@ A switch statement does not contain a break
 <violation beginline="61" endline="70" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" class="VMTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
 A switch statement does not contain a break
 </violation>
-<violation beginline="164" endline="164" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+<violation beginline="147" endline="147" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
 Avoid empty while statements
 </violation>
-<violation beginline="171" endline="171" begincolumn="36" endcolumn="36" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+<violation beginline="154" endline="154" begincolumn="36" endcolumn="36" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
 Avoid empty while statements
 </violation>
-<violation beginline="179" endline="179" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
+<violation beginline="162" endline="162" begincolumn="37" endcolumn="37" rule="EmptyWhileStmt" ruleset="Error Prone" class="VMTest" method="checkgiveTest" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt" priority="3">
 Avoid empty while statements
+</violation>
+</file>
+<file name="/home/runner/work/Software_VnV/Software_VnV/src/test/java/VMfunctionTest.java">
+<violation beginline="10" endline="10" begincolumn="16" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMfunctionTest" variable="vm1" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="21" endcolumn="23" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMfunctionTest" variable="vm2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="15" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMfunctionTest" variable="frame1" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="22" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="VMfunctionTest" variable="frame2" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="43" endline="43" begincolumn="47" endcolumn="52" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="VMfunctionTest" method="findDrink" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Coke" appears 16 times in this file; the first occurrence is on line 43
+</violation>
+<violation beginline="45" endline="45" begincolumn="47" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="VMfunctionTest" method="findDrink" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Sprite" appears 9 times in this file; the first occurrence is on line 45
+</violation>
+<violation beginline="60" endline="60" begincolumn="46" endcolumn="58" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="VMfunctionTest" method="findItem" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Milk Coffee" appears 12 times in this file; the first occurrence is on line 60
+</violation>
+<violation beginline="100" endline="100" begincolumn="48" endcolumn="57" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="VMfunctionTest" method="checkStock" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Demisoda" appears 5 times in this file; the first occurrence is on line 100
 </violation>
 </file>
 </pmd>
