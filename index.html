@@ -6,31 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <style type="text/css">
-         .tab-content{
-             background-color:white;
-         }
-         .nav-item{
-             background-color:black;
-             color:white; 
-             width:10%;
-         }
-         .nav{
-            padding-left:20%;
-         }
-         .nav-link{
-             color:white;
-         }
-         body{
-            background-color:#343a40;
-         }
-         .jumbotron{
-             text-align : center;
-         }
-        #spotbugs{
-            background-color:white;
+        .outer{
+            display:flex;
+            justify-content: center;
+            background-color:#0D0D0D;
         }
-        #spotbugsTest{
-            background-color:white;
+        body{
+            background-color:#0D0D0D;
+        }
+        .jumbotron{
+            text-align:center;
         }
          
     </style>
@@ -44,59 +29,24 @@
         <h2>Static Analysis Report</h2>
     </div>
 
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#menu0">JUnit</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu1">SpotBugs</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu2">Jacoco</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu3">PMD</a>
-        </li>
-    </ul>
-  
-  <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane container active" id="menu0">
-            <div class="container-fluid p-3 my-3 bg-dark text-white" id="jacocoTest"></div>
+    <div class="outer"> 
+        <div class="inner">
+            <a href="./pmd/main.html" role="button" class="btn btn-outline-info">PMD</a>
+            <a href="./pmd/test.html" role="button" class="btn btn-outline-info">PMD_Test</a>
+            <a href="./checkstyle/main.html" role="button" class="btn btn-outline-info">CheckStyle</a>
+            <a href="./checkstyle/test.html" role="button" class="btn btn-outline-info">CheckStyle_Test</a>
+            <!-- <a href="./jacoco/index.html" role="button" class="btn btn-outline-info">Jacoco</a> -->
+            <a href="./spotbugs/main.html" role="button" class="btn btn-outline-info">SpotBugs</a>
+            <a href="./spotbugs/test.html" role="button" class="btn btn-outline-info">SpotBugs_Test</a>
+            <!-- <a href="./junit/index.html" role="button" class="btn btn-outline-info">JUnit</a> -->
+    
+    
         </div>
-        <div class="tab-pane container fade" id="menu1">
-            <div class="container-fluid" id="spotbugs"></div>
-            <div class="container-fluid" id="spotbugsTest"></div>
-        </div>
-        <div class="tab-pane container fade" id="menu2">
-            <div class="container-fluid p-3 my-3 bg-dark text-white" id="jacoco"></div>
-        </div>
-        
-        <div class="tab-pane container fade" id="menu3">
-            <div class="container-fluid p-3 my-3 bg-dark text-white" id="pmd"></div>
-            <div class="container-fluid p-3 my-3 bg-dark text-white" id="pmdTest"></div>
-        </div>
+
     </div>
-  
-
     
 
     
-
-    
-
-     <!-- <h2>Static Analysis</h2>
-    <ul>
-        <a href="https://Jionee.github.io/software_hugo/pmd/main.html">PMD main</a>
-        <a href="https://Jionee.github.io/software_hugo/pmd/test.html">PMD test</a>
-        <a href="https://Jionee.github.io/software_hugo/spotbugs/main.html">SPOT BUGS main</a>
-        <a href="https://Jionee.github.io/software_hugo/spotbugs/test.html">SPOT BUGS test</a>
-         <a href="https://Jionee.github.io/software_hugo/jacoco/index.html">Jacoco code coverage</a>
-         <a href="https://Jionee.github.io/software_hugo/junit/index.html">JUNIT</a>
-    </ul>  -->
-
-
 
 </body>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
