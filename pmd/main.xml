@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-06-05T16:14:47.553">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-06-05T16:27:48.188">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Admin.java">
 <violation beginline="2" endline="2" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Admin" variable="adminID" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -107,9 +107,6 @@ Found 'DU'-anomaly for variable 'stock' (lines '127'-'148').
 <violation beginline="127" endline="148" begincolumn="25" endcolumn="68" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" variable="stock" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DU'-anomaly for variable 'stock' (lines '127'-'148').
 </violation>
-<violation beginline="188" endline="188" begincolumn="46" endcolumn="47" rule="UseEqualsToCompareStrings" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#useequalstocomparestrings" priority="3">
-Use equals() to compare strings instead of '==' or '!='
-</violation>
 <violation beginline="191" endline="191" begincolumn="40" endcolumn="41" rule="UseEqualsToCompareStrings" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#useequalstocomparestrings" priority="3">
 Use equals() to compare strings instead of '==' or '!='
 </violation>
@@ -118,12 +115,6 @@ Found 'DU'-anomaly for variable 'id' (lines '193'-'212').
 </violation>
 <violation beginline="193" endline="212" begincolumn="25" endcolumn="62" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DU'-anomaly for variable 'id' (lines '193'-'212').
-</violation>
-<violation beginline="247" endline="247" begincolumn="43" endcolumn="44" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
-Avoid using Literals in Conditional Statements
-</violation>
-<violation beginline="247" endline="247" begincolumn="43" endcolumn="44" rule="UseEqualsToCompareStrings" ruleset="Error Prone" class="AdminFrame" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#useequalstocomparestrings" priority="3">
-Use equals() to compare strings instead of '==' or '!='
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Card.java">
@@ -654,7 +645,7 @@ Found 'DD'-anomaly for variable 'tempD' (lines '328'-'330').
 <violation beginline="330" endline="331" begincolumn="13" endcolumn="51" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="getOtherVM_3" variable="tempD" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DD'-anomaly for variable 'tempD' (lines '330'-'331').
 </violation>
-<violation beginline="344" endline="351" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="NotifyVMsInfo" variable="isItem" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+<violation beginline="344" endline="351" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="VM" method="notifyVMsInfo" variable="isItem" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DD'-anomaly for variable 'isItem' (lines '344'-'351').
 </violation>
 <violation beginline="381" endline="381" begincolumn="21" endcolumn="22" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="VM" method="requestPrepay" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
