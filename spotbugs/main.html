@@ -131,7 +131,7 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>2007 lines of code analyzed,
+      <p>2009 lines of code analyzed,
 	in 52 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
@@ -143,22 +143,22 @@
          <tr class="tablerow0">
             <td>High Priority Warnings</td>
             <td align="right">8</td>
-            <td align="right">3.99</td>
+            <td align="right">3.98</td>
          </tr>
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
-            <td align="right">9</td>
-            <td align="right">4.48</td>
+            <td align="right">8</td>
+            <td align="right">3.98</td>
          </tr>
          <tr class="$totalClass">
             <td>
                <b>Total Warnings</b>
             </td>
             <td align="right">
-               <b>17</b>
+               <b>16</b>
             </td>
             <td align="right">
-               <b>8.47</b>
+               <b>7.96</b>
             </td>
          </tr>
       </table>
@@ -209,7 +209,7 @@
             <td>
                <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
             </td>
-            <td align="right">2</td>
+            <td align="right">1</td>
          </tr>
          <tr class="tablerow1">
             <td>
@@ -222,7 +222,7 @@
                <b>Total</b>
             </td>
             <td align="right">
-               <b>17</b>
+               <b>16</b>
             </td>
          </tr>
       </table>
@@ -352,27 +352,13 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e293');">
-            <td>
-               <span class="priority-2">UrF</span>
-            </td>
-            <td>Unread field: VM.Address</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e293" style="display: none;">
-                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.Address<br/>At VM.java:[line 172]</p>
-            </td>
-         </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e78');">
+         <tr class="tablerow1" onclick="toggleRow('d1e78');">
             <td>
                <span class="priority-2">UuF</span>
             </td>
             <td>Unused field: Item.index</td>
          </tr>
-         <tr class="detailrow0">
+         <tr class="detailrow1">
             <td/>
             <td>
                <p id="d1e78" style="display: none;">
@@ -473,7 +459,7 @@
                   <br/>In class TestMain<br/>In method TestMain.main(String[])<br/>Local variable named start<br/>At TestMain.java:[line 4]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e319');">
+         <tr class="tablerow1" onclick="toggleRow('d1e306');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -482,12 +468,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e319" style="display: none;">
+               <p id="d1e306" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class VMProject<br/>In method VMProject.main(String[])<br/>Local variable named main2<br/>At VMProject.java:[line 8]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e306');">
+         <tr class="tablerow0" onclick="toggleRow('d1e293');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
@@ -496,9 +482,9 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e306" style="display: none;">
+               <p id="d1e293" style="display: none;">
                   <a href="#URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD">Bug type URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.gov3_flag<br/>At VM.java:[line 326]</p>
+                  <br/>In class VM<br/>Field VM.gov3_flag<br/>At VM.java:[line 324]</p>
             </td>
          </tr>
       </table>
@@ -550,12 +536,6 @@ there is no easy way to eliminate these false positives.
    the mutable object would compromise security or other
    important properties, you will need to do something different.
   Storing a copy of the object is better approach in many situations.</p>
-
-    <h2>
-         <a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
-      </h2>
-
-  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
 
     <h2>
          <a name="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD">URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD: Unread public/protected field</a>

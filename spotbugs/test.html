@@ -87,7 +87,7 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>538 lines of code analyzed,
+      <p>545 lines of code analyzed,
 	in 8 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
@@ -104,7 +104,7 @@
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
             <td align="right">6</td>
-            <td align="right">11.15</td>
+            <td align="right">11.01</td>
          </tr>
          <tr class="$totalClass">
             <td>
@@ -114,7 +114,7 @@
                <b>6</b>
             </td>
             <td align="right">
-               <b>11.15</b>
+               <b>11.01</b>
             </td>
          </tr>
       </table>
@@ -127,6 +127,9 @@
       </p>
       <h2>Contents</h2>
       <ul>
+         <li>
+            <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+         </li>
          <li>
             <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
          </li>
@@ -145,17 +148,23 @@
          </tr>
          <tr class="tablerow0">
             <td>
-               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+               <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
             </td>
-            <td align="right">5</td>
+            <td align="right">1</td>
          </tr>
          <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+            </td>
+            <td align="right">4</td>
+         </tr>
+         <tr class="tablerow0">
             <td>
                <a href="#Warnings_STYLE">Dodgy code Warnings</a>
             </td>
             <td align="right">1</td>
          </tr>
-         <tr class="tablerow0">
+         <tr class="tablerow1">
             <td>
                <b>Total</b>
             </td>
@@ -167,6 +176,29 @@
       <h1>Warnings</h1>
       <p>Click on a warning row to see full context information.</p>
       <h2>
+         <a name="Warnings_CORRECTNESS">Correctness Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e20');">
+            <td>
+               <span class="priority-2">EC</span>
+            </td>
+            <td>Using .equals to compare two double[]'s, (equivalent to ==) in VMTest.getsetTest()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e20" style="display: none;">
+                  <a href="#EC_BAD_ARRAY_COMPARE">Bug type EC_BAD_ARRAY_COMPARE (click for details)</a>
+                  <br/>In class VMTest<br/>In method VMTest.getsetTest()<br/>Actual type double[]<br/>Expected double[]<br/>Value loaded from field VMTest.loc<br/>Return value of VM.getLocation() of type double[]<br/>Called method org.junit.jupiter.api.Assertions.assertEquals(Object, Object)<br/>At VMTest.java:[line 187]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
          <a name="Warnings_PERFORMANCE">Performance Warnings</a>
       </h2>
       <table class="warningtable" width="100%" cellspacing="0">
@@ -174,72 +206,58 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e37');">
-            <td>
-               <span class="priority-2">UrF</span>
-            </td>
-            <td>Unread field: VMTest.a</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e37" style="display: none;">
-                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMTest<br/>Field VMTest.a<br/>At VMTest.java:[line 37]</p>
-            </td>
-         </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e50');">
-            <td>
-               <span class="priority-2">UrF</span>
-            </td>
-            <td>Unread field: VMTest.m3</td>
-         </tr>
-         <tr class="detailrow0">
-            <td/>
-            <td>
-               <p id="d1e50" style="display: none;">
-                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMTest<br/>Field VMTest.m3<br/>At VMTest.java:[line 40]</p>
-            </td>
-         </tr>
          <tr class="tablerow1" onclick="toggleRow('d1e63');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
-            <td>Unread field: VMTest.msg</td>
+            <td>Unread field: VMTest.m3</td>
          </tr>
          <tr class="detailrow1">
             <td/>
             <td>
                <p id="d1e63" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMTest<br/>Field VMTest.msg<br/>At VMTest.java:[line 25]</p>
+                  <br/>In class VMTest<br/>Field VMTest.m3<br/>At VMTest.java:[line 40]</p>
             </td>
          </tr>
          <tr class="tablerow0" onclick="toggleRow('d1e76');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
-            <td>Unread field: VMfunctionTest.frame1</td>
+            <td>Unread field: VMTest.msg</td>
          </tr>
          <tr class="detailrow0">
             <td/>
             <td>
                <p id="d1e76" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VMfunctionTest<br/>Field VMfunctionTest.frame1<br/>At VMfunctionTest.java:[line 23]</p>
+                  <br/>In class VMTest<br/>Field VMTest.msg<br/>At VMTest.java:[line 25]</p>
             </td>
          </tr>
          <tr class="tablerow1" onclick="toggleRow('d1e89');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
-            <td>Unread field: VMfunctionTest.frame2</td>
+            <td>Unread field: VMfunctionTest.frame1</td>
          </tr>
          <tr class="detailrow1">
             <td/>
             <td>
                <p id="d1e89" style="display: none;">
+                  <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+                  <br/>In class VMfunctionTest<br/>Field VMfunctionTest.frame1<br/>At VMfunctionTest.java:[line 23]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e102');">
+            <td>
+               <span class="priority-2">UrF</span>
+            </td>
+            <td>Unread field: VMfunctionTest.frame2</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e102" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
                   <br/>In class VMfunctionTest<br/>Field VMfunctionTest.frame2<br/>At VMfunctionTest.java:[line 19]</p>
             </td>
@@ -253,7 +271,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e20');">
+         <tr class="tablerow1" onclick="toggleRow('d1e46');">
             <td>
                <span class="priority-2">RV</span>
             </td>
@@ -262,9 +280,9 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e20" style="display: none;">
+               <p id="d1e46" style="display: none;">
                   <a href="#RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT">Bug type RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT (click for details)</a>
-                  <br/>In class VMTest<br/>In method VMTest.getOtherVM_3Test()<br/>Called method new Message(int, int, int, String)<br/>At VMTest.java:[line 172]<br/>Another occurrence at VMTest.java:[line 177]</p>
+                  <br/>In class VMTest<br/>In method VMTest.getOtherVM_3Test()<br/>Called method new Message(int, int, int, String)<br/>At VMTest.java:[line 172]<br/>Another occurrence at VMTest.java:[line 176]</p>
             </td>
          </tr>
       </table>
@@ -272,6 +290,18 @@
          <a name="Details">Details</a>
       </h1>
       <h2>
+         <a name="EC_BAD_ARRAY_COMPARE">EC_BAD_ARRAY_COMPARE: Invocation of equals() on an array, which is equivalent to ==</a>
+      </h2>
+
+<p>
+This method invokes the .equals(Object o) method on an array. Since arrays do not override the equals
+method of Object, calling equals on an array is the same as comparing their addresses. To compare the
+contents of the arrays, use <code>java.util.Arrays.equals(Object[], Object[])</code>.
+To compare the addresses of the arrays, it would be
+less confusing to explicitly check pointer equality using <code>==</code>.
+</p>
+
+    <h2>
          <a name="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT">RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT: Return value of method without side effect is ignored</a>
       </h2>
 
