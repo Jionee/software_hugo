@@ -131,7 +131,7 @@
          <br/>
       </p>
       <h2>Metrics</h2>
-      <p>2010 lines of code analyzed,
+      <p>2011 lines of code analyzed,
 	in 52 classes, 
 	in 1 packages.</p>
       <table width="500" cellpadding="5" cellspacing="2">
@@ -147,18 +147,18 @@
          </tr>
          <tr class="tablerow1">
             <td>Medium Priority Warnings</td>
-            <td align="right">12</td>
-            <td align="right">5.97</td>
+            <td align="right">9</td>
+            <td align="right">4.48</td>
          </tr>
          <tr class="$totalClass">
             <td>
                <b>Total Warnings</b>
             </td>
             <td align="right">
-               <b>20</b>
+               <b>17</b>
             </td>
             <td align="right">
-               <b>9.95</b>
+               <b>8.45</b>
             </td>
          </tr>
       </table>
@@ -171,12 +171,6 @@
       </p>
       <h2>Contents</h2>
       <ul>
-         <li>
-            <a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
-         </li>
-         <li>
-            <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
-         </li>
          <li>
             <a href="#Warnings_I18N">Internationalization Warnings</a>
          </li>
@@ -201,18 +195,6 @@
          </tr>
          <tr class="tablerow0">
             <td>
-               <a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
-            </td>
-            <td align="right">1</td>
-         </tr>
-         <tr class="tablerow1">
-            <td>
-               <a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
-            </td>
-            <td align="right">1</td>
-         </tr>
-         <tr class="tablerow0">
-            <td>
                <a href="#Warnings_I18N">Internationalization Warnings</a>
             </td>
             <td align="right">2</td>
@@ -233,65 +215,19 @@
             <td>
                <a href="#Warnings_STYLE">Dodgy code Warnings</a>
             </td>
-            <td align="right">9</td>
+            <td align="right">8</td>
          </tr>
          <tr class="tablerow0">
             <td>
                <b>Total</b>
             </td>
             <td align="right">
-               <b>20</b>
+               <b>17</b>
             </td>
          </tr>
       </table>
       <h1>Warnings</h1>
       <p>Click on a warning row to see full context information.</p>
-      <h2>
-         <a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
-      </h2>
-      <table class="warningtable" width="100%" cellspacing="0">
-         <tr class="tableheader">
-            <th align="left">Code</th>
-            <th align="left">Warning</th>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e78');">
-            <td>
-               <span class="priority-2">ES</span>
-            </td>
-            <td>Comparison of String objects using == or != in AdminFrame$3.actionPerformed(ActionEvent)</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e78" style="display: none;">
-                  <a href="#ES_COMPARING_STRINGS_WITH_EQ">Bug type ES_COMPARING_STRINGS_WITH_EQ (click for details)</a>
-                  <br/>In class AdminFrame$3<br/>In method AdminFrame$3.actionPerformed(ActionEvent)<br/>Actual type String<br/>String constant ""<br/>Return value of javax.swing.JTextField.getText() of type String<br/>At AdminFrame.java:[line 190]</p>
-            </td>
-         </tr>
-      </table>
-      <h2>
-         <a name="Warnings_CORRECTNESS">Correctness Warnings</a>
-      </h2>
-      <table class="warningtable" width="100%" cellspacing="0">
-         <tr class="tableheader">
-            <th align="left">Code</th>
-            <th align="left">Warning</th>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e211');">
-            <td>
-               <span class="priority-2">SA</span>
-            </td>
-            <td>Self assignment of field parent in new StartDialog()</td>
-         </tr>
-         <tr class="detailrow1">
-            <td/>
-            <td>
-               <p id="d1e211" style="display: none;">
-                  <a href="#SA_FIELD_SELF_ASSIGNMENT">Bug type SA_FIELD_SELF_ASSIGNMENT (click for details)</a>
-                  <br/>In class StartDialog<br/>In method new StartDialog()<br/>Field StartDialog.parent<br/>At StartDialog.java:[line 27]</p>
-            </td>
-         </tr>
-      </table>
       <h2>
          <a name="Warnings_I18N">Internationalization Warnings</a>
       </h2>
@@ -300,7 +236,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e125');">
+         <tr class="tablerow1" onclick="toggleRow('d1e91');">
             <td>
                <span class="priority-1">Dm</span>
             </td>
@@ -309,12 +245,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e125" style="display: none;">
+               <p id="d1e91" style="display: none;">
                   <a href="#DM_DEFAULT_ENCODING">Bug type DM_DEFAULT_ENCODING (click for details)</a>
                   <br/>In class Mail<br/>In method Mail.run()<br/>Called method new java.io.OutputStreamWriter(OutputStream)<br/>At Message.java:[line 24]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e196');">
+         <tr class="tablerow0" onclick="toggleRow('d1e157');">
             <td>
                <span class="priority-1">Dm</span>
             </td>
@@ -323,7 +259,7 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e196" style="display: none;">
+               <p id="d1e157" style="display: none;">
                   <a href="#DM_DEFAULT_ENCODING">Bug type DM_DEFAULT_ENCODING (click for details)</a>
                   <br/>In class RecieveMail<br/>In method RecieveMail.run()<br/>Called method new java.io.InputStreamReader(InputStream)<br/>At ReceiveMail.java:[line 33]</p>
             </td>
@@ -337,7 +273,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e262');">
+         <tr class="tablerow1" onclick="toggleRow('d1e206');">
             <td>
                <span class="priority-2">EI</span>
             </td>
@@ -346,12 +282,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e262" style="display: none;">
+               <p id="d1e206" style="display: none;">
                   <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getDrinkArray()<br/>Field VM.drinkArray<br/>At VM.java:[line 167]</p>
+                  <br/>In class VM<br/>In method VM.getDrinkArray()<br/>Field VM.drinkArray<br/>At VM.java:[line 164]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e278');">
+         <tr class="tablerow0" onclick="toggleRow('d1e223');">
             <td>
                <span class="priority-2">EI</span>
             </td>
@@ -360,12 +296,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e278" style="display: none;">
+               <p id="d1e223" style="display: none;">
                   <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
-                  <br/>In class VM<br/>In method VM.getLocation()<br/>Field VM.Location<br/>At VM.java:[line 158]</p>
+                  <br/>In class VM<br/>In method VM.getLocation()<br/>Field VM.Location<br/>At VM.java:[line 155]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e294');">
+         <tr class="tablerow1" onclick="toggleRow('d1e239');">
             <td>
                <span class="priority-2">EI2</span>
             </td>
@@ -374,12 +310,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e294" style="display: none;">
+               <p id="d1e239" style="display: none;">
                   <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
-                  <br/>In class VM<br/>In method new VM(int, int, double[])<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 38]</p>
+                  <br/>In class VM<br/>In method new VM(int, int, double[])<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 35]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e312');">
+         <tr class="tablerow0" onclick="toggleRow('d1e257');">
             <td>
                <span class="priority-2">EI2</span>
             </td>
@@ -388,12 +324,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e312" style="display: none;">
+               <p id="d1e257" style="display: none;">
                   <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
-                  <br/>In class VM<br/>In method new VM(int, double[])<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 30]</p>
+                  <br/>In class VM<br/>In method new VM(int, double[])<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 27]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e330');">
+         <tr class="tablerow1" onclick="toggleRow('d1e275');">
             <td>
                <span class="priority-2">EI2</span>
             </td>
@@ -402,9 +338,9 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e330" style="display: none;">
+               <p id="d1e275" style="display: none;">
                   <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
-                  <br/>In class VM<br/>In method new VM(int, double[], int)<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 46]</p>
+                  <br/>In class VM<br/>In method new VM(int, double[], int)<br/>Field VM.Location<br/>Local variable named Locaiton<br/>At VM.java:[line 43]</p>
             </td>
          </tr>
       </table>
@@ -416,7 +352,7 @@
             <th align="left">Code</th>
             <th align="left">Warning</th>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e348');">
+         <tr class="tablerow1" onclick="toggleRow('d1e293');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
@@ -425,12 +361,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e348" style="display: none;">
+               <p id="d1e293" style="display: none;">
                   <a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.Address<br/>At VM.java:[line 175]</p>
+                  <br/>In class VM<br/>Field VM.Address<br/>At VM.java:[line 172]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e112');">
+         <tr class="tablerow0" onclick="toggleRow('d1e78');">
             <td>
                <span class="priority-2">UuF</span>
             </td>
@@ -439,7 +375,7 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e112" style="display: none;">
+               <p id="d1e78" style="display: none;">
                   <a href="#UUF_UNUSED_FIELD">Bug type UUF_UNUSED_FIELD (click for details)</a>
                   <br/>In class Item<br/>Field Item.index<br/>In Item.java</p>
             </td>
@@ -464,38 +400,38 @@
             <td>
                <p id="d1e61" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
-                  <br/>In class AdminFrame$1<br/>In method AdminFrame$1.actionPerformed(ActionEvent)<br/>Local variable named drink<br/>At AdminFrame.java:[line 89]</p>
+                  <br/>In class AdminFrame$1<br/>In method AdminFrame$1.actionPerformed(ActionEvent)<br/>Local variable named drink<br/>At AdminFrame.java:[line 88]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e140');">
+         <tr class="tablerow0" onclick="toggleRow('d1e106');">
+            <td>
+               <span class="priority-1">DLS</span>
+            </td>
+            <td>Dead store to adminframe in MainFrame.checkAdmin()</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e106" style="display: none;">
+                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+                  <br/>In class MainFrame<br/>In method MainFrame.checkAdmin()<br/>Local variable named adminframe<br/>At MainFrame.java:[line 162]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e123');">
             <td>
                <span class="priority-2">DLS</span>
             </td>
             <td>Dead store to $L2 in MainFrame.showVMFrame(VM)</td>
          </tr>
-         <tr class="detailrow0">
-            <td/>
-            <td>
-               <p id="d1e140" style="display: none;">
-                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
-                  <br/>In class MainFrame<br/>In method MainFrame.showVMFrame(VM)<br/>Local variable stored in JVM register 2<br/>At MainFrame.java:[line 332]</p>
-            </td>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e157');">
-            <td>
-               <span class="priority-1">DLS</span>
-            </td>
-            <td>Dead store to admin rather than field with same name in MainFrame.checkAdmin()</td>
-         </tr>
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e157" style="display: none;">
-                  <a href="#DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD">Bug type DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD (click for details)</a>
-                  <br/>In class MainFrame<br/>In method MainFrame.checkAdmin()<br/>Local variable named admin<br/>Did you mean to refer to the field MainFrame.admin?<br/>At MainFrame.java:[line 162]</p>
+               <p id="d1e123" style="display: none;">
+                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+                  <br/>In class MainFrame<br/>In method MainFrame.showVMFrame(VM)<br/>Local variable stored in JVM register 2<br/>At MainFrame.java:[line 329]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e179');">
+         <tr class="tablerow0" onclick="toggleRow('d1e140');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -504,12 +440,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e179" style="display: none;">
+               <p id="d1e140" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class MainFrame$1<br/>In method MainFrame$1.actionPerformed(ActionEvent)<br/>Local variable named cardList<br/>At MainFrame.java:[line 51]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e228');">
+         <tr class="tablerow1" onclick="toggleRow('d1e172');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -518,12 +454,12 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e228" style="display: none;">
+               <p id="d1e172" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
-                  <br/>In class StartDialog$3<br/>In method StartDialog$3.actionPerformed(ActionEvent)<br/>Local variable named main<br/>At StartDialog.java:[line 90]</p>
+                  <br/>In class StartDialog$3<br/>In method StartDialog$3.actionPerformed(ActionEvent)<br/>Local variable named main<br/>At StartDialog.java:[line 89]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e245');">
+         <tr class="tablerow0" onclick="toggleRow('d1e189');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -532,12 +468,12 @@
          <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e245" style="display: none;">
+               <p id="d1e189" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class TestMain<br/>In method TestMain.main(String[])<br/>Local variable named start<br/>At TestMain.java:[line 4]</p>
             </td>
          </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e374');">
+         <tr class="tablerow1" onclick="toggleRow('d1e319');">
             <td>
                <span class="priority-1">DLS</span>
             </td>
@@ -546,37 +482,23 @@
          <tr class="detailrow1">
             <td/>
             <td>
-               <p id="d1e374" style="display: none;">
+               <p id="d1e319" style="display: none;">
                   <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
                   <br/>In class VMProject<br/>In method VMProject.main(String[])<br/>Local variable named main2<br/>At VMProject.java:[line 8]</p>
             </td>
          </tr>
-         <tr class="tablerow0" onclick="toggleRow('d1e100');">
-            <td>
-               <span class="priority-2">SF</span>
-            </td>
-            <td>Switch statement found in DrinkPanel.initCenter() where default case is missing</td>
-         </tr>
-         <tr class="detailrow0">
-            <td/>
-            <td>
-               <p id="d1e100" style="display: none;">
-                  <a href="#SF_SWITCH_NO_DEFAULT">Bug type SF_SWITCH_NO_DEFAULT (click for details)</a>
-                  <br/>In class DrinkPanel<br/>In method DrinkPanel.initCenter()<br/>At DrinkPanel.java:[lines 56-115]</p>
-            </td>
-         </tr>
-         <tr class="tablerow1" onclick="toggleRow('d1e361');">
+         <tr class="tablerow0" onclick="toggleRow('d1e306');">
             <td>
                <span class="priority-2">UrF</span>
             </td>
             <td>Unread public/protected field: VM.gov3_flag</td>
          </tr>
-         <tr class="detailrow1">
+         <tr class="detailrow0">
             <td/>
             <td>
-               <p id="d1e361" style="display: none;">
+               <p id="d1e306" style="display: none;">
                   <a href="#URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD">Bug type URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD (click for details)</a>
-                  <br/>In class VM<br/>Field VM.gov3_flag<br/>At VM.java:[line 329]</p>
+                  <br/>In class VM<br/>Field VM.gov3_flag<br/>At VM.java:[line 326]</p>
             </td>
          </tr>
       </table>
@@ -597,18 +519,6 @@ used.
 Note that Sun's javac compiler often generates dead stores for
 final local variables.  Because SpotBugs is a bytecode-based tool,
 there is no easy way to eliminate these false positives.
-</p>
-
-    <h2>
-         <a name="DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD">DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD: Dead store to local variable that shadows field</a>
-      </h2>
-
-<p>
-This instruction assigns a value to a local variable,
-but the value is not read or used in any subsequent instruction.
-Often, this indicates an error, because the value computed is never
-used. There is a field with the same name as the local variable. Did you
-mean to assign to that variable instead?
 </p>
 
     <h2>
@@ -640,40 +550,6 @@ mean to assign to that variable instead?
    the mutable object would compromise security or other
    important properties, you will need to do something different.
   Storing a copy of the object is better approach in many situations.</p>
-
-    <h2>
-         <a name="ES_COMPARING_STRINGS_WITH_EQ">ES_COMPARING_STRINGS_WITH_EQ: Comparison of String objects using == or !=</a>
-      </h2>
-
-  <p>This code compares <code>java.lang.String</code> objects for reference
-equality using the == or != operators.
-Unless both strings are either constants in a source file, or have been
-interned using the <code>String.intern()</code> method, the same string
-value may be represented by two different String objects. Consider
-using the <code>equals(Object)</code> method instead.</p>
-
-    <h2>
-         <a name="SA_FIELD_SELF_ASSIGNMENT">SA_FIELD_SELF_ASSIGNMENT: Self assignment of field</a>
-      </h2>
-
-<p> This method contains a self assignment of a field; e.g.
-</p>
-<pre><code>int x;
-public void foo() {
-    x = x;
-}
-</code></pre>
-<p>Such assignments are useless, and may indicate a logic error or typo.</p>
-
-    <h2>
-         <a name="SF_SWITCH_NO_DEFAULT">SF_SWITCH_NO_DEFAULT: Switch statement found where default case is missing</a>
-      </h2>
-
-  <p> This method contains a switch statement where default case is missing.
-  Usually you need to provide a default case.</p>
-  <p>Because the analysis only looks at the generated bytecode, this warning can be incorrect triggered if
-the default case is at the end of the switch statement and the switch statement doesn't contain break statements for other
-cases.
 
     <h2>
          <a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
