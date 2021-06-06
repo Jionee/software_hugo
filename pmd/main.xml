@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-06-06T03:50:26.601">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.26.0" timestamp="2021-06-06T03:58:32.516">
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/Admin.java">
 <violation beginline="2" endline="2" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Admin" variable="adminID" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
@@ -477,20 +477,32 @@ Ensure that resources like this BufferedReader object are closed after use
 <violation beginline="16" endline="33" begincolumn="21" endcolumn="91" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DD'-anomaly for variable 'in' (lines '16'-'33').
 </violation>
-<violation beginline="16" endline="57" begincolumn="24" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'in' (lines '16'-'57').
+<violation beginline="16" endline="49" begincolumn="24" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'in' (lines '16'-'49').
+</violation>
+<violation beginline="17" endline="17" begincolumn="22" endcolumn="29" rule="CloseResource" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this ServerSocket object are closed after use
 </violation>
 <violation beginline="17" endline="22" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DD'-anomaly for variable 'listener' (lines '17'-'22').
 </violation>
-<violation beginline="17" endline="57" begincolumn="22" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'listener' (lines '17'-'57').
+<violation beginline="17" endline="49" begincolumn="22" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'listener' (lines '17'-'49').
+</violation>
+<violation beginline="18" endline="18" begincolumn="16" endcolumn="21" rule="CloseResource" ruleset="Error Prone" class="RecieveMail" method="run" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Socket object are closed after use
 </violation>
 <violation beginline="18" endline="28" begincolumn="21" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
 Found 'DD'-anomaly for variable 'socket' (lines '18'-'28').
 </violation>
-<violation beginline="18" endline="57" begincolumn="16" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'socket' (lines '18'-'57').
+<violation beginline="18" endline="49" begincolumn="16" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'socket' (lines '18'-'49').
+</violation>
+<violation beginline="22" endline="22" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'listener' (lines '22'-'22').
+</violation>
+<violation beginline="22" endline="49" begincolumn="17" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="RecieveMail" method="run" variable="listener" externalInfoUrl="https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'listener' (lines '22'-'49').
 </violation>
 </file>
 <file name="/home/runner/work/Software_VnV/Software_VnV/src/main/java/StartDialog.java">
